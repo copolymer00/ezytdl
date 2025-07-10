@@ -10,7 +10,7 @@ def download_song(url):
 		   'preferredcodec': 'opus',
 		   'preferredquality': '192',
 	    }],
-	    'outtmpl': '~/music/%(title)s.%(ext)s',
+	    'outtmpl': '~/Music/%(title)s.%(ext)s',
 	}
 	try:
 		with yt_dlp.YoutubeDL(ydl_opts) as ydl:
